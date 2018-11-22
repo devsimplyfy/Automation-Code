@@ -1,0 +1,33 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "productBaseInfoV1": {
+        "category": "category_name",
+        "title": "name",
+        "productDescription": "description",
+        "flipkartSellingPrice": {
+          "amount": "regular_price"
+        },
+        "flipkartSpecialPrice": {
+          "amount": "sale_price"
+        },
+        "inStock": "stock",
+        "imageUrls": {
+          "800x800": "image"
+        },
+        "productUrl": "product_url",
+        "productId": "product_id",
+        "categoryPath": "&"
+		//,"attributes": "&"
+      }
+    }
+    },
+
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      "product_id": "=concat('1_',@(1,product_id))"
+    }
+  }
+]

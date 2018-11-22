@@ -1,0 +1,19 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "productBaseInfoV1": {
+        "attributes": {
+          "*": "&"
+        }
+      }
+    }
+    },
+
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      //"product_id": "=concat('1_',@(1,product_id))"
+    }
+  }
+]
